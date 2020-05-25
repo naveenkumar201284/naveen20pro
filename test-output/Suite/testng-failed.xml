@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="CashWithDrawal     (failed)">
+    <classes>
+      <class name="com.test.profinch.CashWithDrawal">
+        <methods>
+          <include name="teardown"/>
+          <include name="CashWithDrawalCreation"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.test.profinch.CashWithDrawal -->
+      <class name="com.test.profinch.CashDeposit">
+        <methods>
+          <include name="setup"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.test.profinch.CashDeposit -->
+    </classes>
+  </test> <!-- CashWithDrawal     (failed) -->
+</suite> <!-- Failed suite [Suite] -->

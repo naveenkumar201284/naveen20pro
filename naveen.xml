@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite"> 
+
+ <test name="CashDeposit">
+    <classes>
+      <class name="com.test.profinch.CashDeposit"/>
+   </classes>
+   </test>
+   
+   
+    <test name="CashWithDrawal
+    ">
+    <classes>
+      <class name="com.test.profinch.CashWithDrawal"/>
+   </classes>
+   </test>
+
+</suite>

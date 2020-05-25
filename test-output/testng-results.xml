@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="142302" started-at="2020-05-24T13:27:19Z" finished-at="2020-05-24T13:29:42Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="142302" started-at="2020-05-24T13:27:19Z" finished-at="2020-05-24T13:29:42Z">
+      <class name="com.test.profinch.CashDeposit">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.test.profinch.CashDeposit@fd07cbb]" name="setup" is-config="true" duration-ms="43684" started-at="2020-05-24T18:57:19Z" finished-at="2020-05-24T18:58:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="CashDepositCreation()[pri:0, instance:com.test.profinch.CashDeposit@fd07cbb]" name="CashDepositCreation" duration-ms="94472" started-at="2020-05-24T18:58:03Z" finished-at="2020-05-24T18:59:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CashDepositCreation -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.test.profinch.CashDeposit@fd07cbb]" name="teardown" is-config="true" duration-ms="4123" started-at="2020-05-24T18:59:37Z" finished-at="2020-05-24T18:59:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.test.profinch.CashDeposit -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
